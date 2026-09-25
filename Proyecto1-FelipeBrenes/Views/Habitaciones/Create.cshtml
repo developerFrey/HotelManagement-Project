@@ -1,0 +1,45 @@
+﻿@model Proyecto1_FelipeBrenes.Models.Habitacion
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+<h2>Nueva Habitación</h2>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+    </div>
+}
+
+<form method="post" class="form-control p-3">
+    <input asp-for="Numero" type="number" min="1" max="500" step="1" class="form-control mb-2" placeholder="Número" />
+    <span asp-validation-for="Numero" class="text-danger"></span>
+
+    <select asp-for="Tipo" class="form-control mb-2">
+        <option value="">Seleccione tipo</option>
+        <option>Start Junior</option>
+        <option>Start Vista al Mar</option>
+        <option>Master Start</option>
+    </select>
+    <span asp-validation-for="Tipo" class="text-danger"></span>
+
+    <input asp-for="Tarifa" type="number" min="50" max="800" step="0.01" class="form-control mb-2" placeholder="Tarifa" />
+    <span asp-validation-for="Tarifa" class="text-danger"></span>
+
+    <h5>TV Satelital (Si/No)</h5>
+    <select asp-for="TV" class="form-control mb-2">
+        <option value="true">Sí</option>
+        <option value="false">No</option>
+    </select>
+
+    <input asp-for="Mantenimiento" class="form-control mb-2" placeholder="Pendientes de Mantenimiento" />
+    <span asp-validation-for="Mantenimiento" class="text-danger"></span>
+
+    <button class="btn btn-success">Guardar</button>
+</form>

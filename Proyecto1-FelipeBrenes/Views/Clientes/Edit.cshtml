@@ -1,0 +1,93 @@
+﻿@model List<Cliente>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+<!-- Muestra todos los mensajes producidos por las validaciones del modelo al editar. -->
+<div asp-validation-summary="All" class="text-danger"></div>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+    </div>
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <p>@ViewBag.Mensaje</p>
+}
+else
+{
+    <table class="table table-striped">
+        <tr>
+            <th>Tipo</th>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Primer Apellido</th>
+            <th>Segundo Apellido</th>
+            <th>Fecha de Nacimiento</th>
+			<th>Acción</th>
+            
+        </tr>
+
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <form asp-action="Edit" method="post">
+                    <div asp-validation-summary="All"
+                         class="text-danger">
+                    </div>
+                    <td>
+                        <select name="TipoIdentificacion">
+
+                            <option value="Cedula"
+                                    selected="@(cliente.TipoIdentificacion == "Cedula")">
+                                Cédula
+                            </option>
+
+                            <option value="Dimex"
+                                    selected="@(cliente.TipoIdentificacion == "Dimex")">
+                                DIMEX
+                            </option>
+
+                            <option value="Pasaporte"
+                                    selected="@(cliente.TipoIdentificacion == "Pasaporte")">
+                                Pasaporte
+                            </option>
+
+                        </select>
+                    </td>
+                    <td>
+                        <input name="Identificacion" value="@cliente.Identificacion" readonly />
+                    </td>
+
+                    <td>
+                        <input name="Nombre" value="@cliente.Nombre" />
+                    </td>
+
+                    <td>
+                        <input name="PrimerApellido" value="@cliente.PrimerApellido" />
+                    </td>
+
+                    <td>
+                        <input name="SegundoApellido" value="@cliente.SegundoApellido" />
+                    </td>
+
+                    <td>
+                        <input name="FechaNacimiento" type="date" min="1800-01-01" max="@DateTime.Today.AddDays(-1).ToString("yyyy-MM-dd")"
+                               value="@cliente.FechaNacimiento?.ToString("yyyy-MM-dd")" />
+                    </td>
+
+                    <td>
+                        
+                        <button class="btn btn-warning btn-sm" type="submit">Actualizar</button>
+                    </td>
+                </form>
+            </tr>
+        }
+    </table>
+}

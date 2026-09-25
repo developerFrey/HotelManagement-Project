@@ -1,0 +1,128 @@
+﻿@model List<Empleado>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+    </div>
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <p>@ViewBag.Mensaje</p>
+}
+else
+{
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <table class="table table-striped">
+        <tr>
+            
+            <th>Tipo de Identificacion</th>
+            <th>Identificacion</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Salario</th>
+            <th>Fecha de Ingreso</th>
+            <th>Categoría</th>
+            <th>Ubicación</th>
+            <th>Dirección</th>
+			<th>Acción</th>
+
+        </tr>
+
+        @foreach (var empleado in Model)
+        {
+            <tr>
+                <form asp-action="Edit" method="post">
+                    <td>
+                        <input name="TipoIdentificacion" value="@empleado.TipoIdentificacion" readonly/>
+                    </td>
+                    <td>
+                        <input name="Identificacion" value="@empleado.Identificacion" readonly />
+                    </td>
+
+                    <td>
+                        <input name="Nombre" value="@empleado.Nombre" />
+                    </td>
+
+                    <td>
+                        <input name="Apellidos" value="@empleado.Apellidos" />
+                    </td>
+
+                    <td>
+                        <input name="FechaNacimiento" type="date" min="1800-01-01" max="@DateTime.Today.AddDays(-1).ToString("yyyy-MM-dd")"
+                               value="@empleado.FechaNacimiento?.ToString("yyyy-MM-dd")" />
+                    </td>
+                    <td>
+                        <input name="Salario" value="@empleado.Salario" />
+                    </td>
+
+                    <td>
+                        <input name="FechaIngreso" type="date"
+                               value="@empleado.FechaIngreso?.ToString("yyyy-MM-dd")" />
+                    </td>
+
+                    <td>
+                        <select name="Categoria" class="form-control mb-2">
+                            <option value="">Seleccione</option>
+
+                            <option value="Mesero" selected="@(empleado.Categoria == "Mesero")">Mesero</option>
+                            <option value="Salonero" selected="@(empleado.Categoria == "Salonero")">Salonero</option>
+                            <option value="Lavaplatos" selected="@(empleado.Categoria == "Lavaplatos")">Lavaplatos</option>
+                            <option value="Recepcionista" selected="@(empleado.Categoria == "Recepcionista")">Recepcionista</option>
+                            <option value="Administrador" selected="@(empleado.Categoria == "Administrador")">Administrador</option>
+                            <option value="Mantenimiento" selected="@(empleado.Categoria == "Mantenimiento")">Mantenimiento</option>
+                            <option value="Cocinero" selected="@(empleado.Categoria == "Cocinero")">Cocinero</option>
+                            <option value="Chef" selected="@(empleado.Categoria == "Chef")">Chef</option>
+                            <option value="Limpieza" selected="@(empleado.Categoria == "Limpieza")">Limpieza</option>
+                            <option value="Cocina" selected="@(empleado.Categoria == "Cocina")">Cocina</option>
+                            <option value="Seguridad" selected="@(empleado.Categoria == "Seguridad")">Seguridad</option>
+                            <option value="Atención al Cliente" selected="@(empleado.Categoria == "Atención al Cliente")">Atención al Cliente</option>
+                            <option value="Guía Turístico" selected="@(empleado.Categoria == "Guía Turístico")">Guía Turístico</option>
+                            <option value="Encargado de Reservaciones" selected="@(empleado.Categoria == "Encargado de Reservaciones")">Encargado de Reservaciones</option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <div class="ubicacion-container">
+
+                            <select class="provincia form-control mb-2">
+                                <option value="">Provincia</option>
+                                <option>San José</option>
+                                <option>Alajuela</option>
+                            </select>
+
+                            <select class="canton form-control mb-2">
+                                <option value="">Cantón</option>
+                            </select>
+
+                            <select class="distrito form-control mb-2">
+                                <option value="">Distrito</option>
+                            </select>
+
+                            <input name="Ubicacion" class="ubicacionFinal" type="hidden" value="@empleado.Ubicacion" />
+
+                        </div>
+                    </td>
+
+                    <td>
+                        <input name="Direccion" value="@empleado.Direccion" />
+                    </td>
+
+                    <td>
+
+                        <button class="btn btn-warning btn-sm" type="submit">Actualizar</button>
+                    </td>
+                </form>
+            </tr>
+        }
+    </table>
+}

@@ -1,0 +1,139 @@
+﻿@model List<Reservacion>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-warning alert-dismissible fade show">
+
+        @TempData["Mensaje"]
+
+        <button class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+
+    </div>
+}
+
+<form asp-action="Buscar" method="post">
+
+    <h5>Buscar por código</h5>
+
+    <input type="text"
+           name="codigo"
+           class="form-control" />
+
+    <h5 class="mt-2">Buscar por identificación del cliente</h5>
+
+    <input type="text"
+           name="cliente"
+           class="form-control" />
+
+    <button class="btn btn-primary mt-2">
+        Buscar
+    </button>
+
+</form>
+
+@if (ViewBag.Resultados != null)
+{
+    var resultados = ViewBag.Resultados as List<Reservacion>;
+
+    if (resultados is { Count: > 0 })
+    {
+        <h4>Resultado de búsqueda</h4>
+
+        <table class="table table-bordered">
+
+            <tr>
+                <th>Código de Reservacion</th>
+                <th>Cliente</th>
+                <th>Habitación</th>
+                <th>Fecha de la Reservación</th>
+                <th>Ingreso</th>
+                <th>Salida</th>
+                <th>Personas</th>
+                <th>Descuento</th>
+                <th>Tarifa</th>
+                <th>Total</th>
+                <th>Solicitudes</th>
+                <th>Estado</th>
+                
+            </tr>
+
+            @foreach (var reservacion in resultados)
+            {
+                <tr>
+                    <td>@reservacion.CodigoReservacion</td>
+                    <td>@reservacion.ClienteId</td>
+                    <td>@reservacion.HabitacionNumero</td>
+                    <td>@reservacion.FechaReservacion.ToString("yyyy-MM-dd")</td>                   
+                    <td>@reservacion.FechaIngreso?.ToString("yyyy-MM-dd")</td>
+                    <td>@reservacion.FechaSalida?.ToString("yyyy-MM-dd")</td>
+                    <td>@reservacion.CantidadPersonas</td>
+                    <td>@reservacion.PorcentajeDescuento %</td>
+                    <td>@reservacion.TarifaReservacion.ToString("N2")</td>
+                    <td>@reservacion.MontoTotal.ToString("N2")</td>
+                    <td>@reservacion.SolicitudesEspeciales</td>
+                    <td>@reservacion.Estado</td>
+                </tr>
+            }
+
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-warning">
+            No se encontraron Reservaciones...
+        </div>
+    }
+}
+
+<button class="btn btn-secondary mt-3"
+        data-bs-toggle="collapse"
+        data-bs-target="#listaReservaciones">
+
+    Ver todas las reservaciones
+
+</button>
+
+<div class="collapse mt-3" id="listaReservaciones">
+
+    <table class="table table-striped">
+
+        <tr>
+            <th>Código de Reservacion</th>
+            <th>Cliente</th>
+            <th>Habitación</th>
+            <th>Fecha de la Reservación</th>
+            <th>Ingreso</th>
+            <th>Salida</th>
+            <th>Personas</th>
+            <th>Descuento</th>
+            <th>Tarifa</th>
+            <th>Total</th>
+            <th>Solicitudes</th>
+            <th>Estado</th>
+        </tr>
+
+        @foreach (var reservacion in Model)
+        {
+            <tr>
+                <td>@reservacion.CodigoReservacion</td>
+                <td>@reservacion.ClienteId</td>
+                <td>@reservacion.HabitacionNumero</td>
+                <td>@reservacion.FechaReservacion.ToString("yyyy-MM-dd")</td>
+                <td>@reservacion.FechaIngreso?.ToString("yyyy-MM-dd")</td>
+                <td>@reservacion.FechaSalida?.ToString("yyyy-MM-dd")</td>
+                <td>@reservacion.CantidadPersonas</td>
+                <td>@reservacion.PorcentajeDescuento %</td>
+                <td>@reservacion.TarifaReservacion.ToString("N2")</td>
+                <td>@reservacion.MontoTotal.ToString("N2")</td>
+                <td>@reservacion.SolicitudesEspeciales</td>
+                <td>@reservacion.Estado</td>
+            </tr>
+        }
+
+    </table>
+
+</div>

@@ -1,0 +1,297 @@
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\bin\Debug\net10.0\appsettings.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.staticwebassets.runtime.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.staticwebassets.endpoints.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.exe
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.deps.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.runtimeconfig.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.pdb
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.AssemblyInfoInputs.cache
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.AssemblyInfo.cs
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.csproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.RazorAssemblyInfo.cache
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.RazorAssemblyInfo.cs
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\scopedcss\bundle\Proyecto1-FelipeBrenes.styles.css
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\scopedcss\projectbundle\Proyecto1-FelipeBrenes.bundle.scp.css
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\yrwk5a6zrz-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\krv3qzwk8j-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\1ulg2e0qwf-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\zh2lhjsky4-{0}-2l3l93nz37-2l3l93nz37.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\b4knsmjzz0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\4rjyruzkk6-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\95yqikok9z-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\g0ncpf3kj3-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\zuz6xwtkh5-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\7gcnehqid1-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\ap6qsznq1x-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\9ez5qj7wrp-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\g498oldh5x-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\i6d24izob7-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\aceznrvf48-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\2b4whed1b5-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\v756lbuk5b-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\qkozs0t4yt-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\0fxirjibhs-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\hkg91bpafo-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\usigifwumo-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\n8lqzn14bh-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\geofvinxo5-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\vwi9cxrxzo-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\rznh2z78rj-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\awbxxj9y6x-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\17lv3utto6-{0}-06098lyss8-06098lyss8.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\8h1rrtx45r-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\dmp9gzyix1-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\a03b42792i-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\wxls165ca4-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\5vrpjdv6l3-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\55z3j1jjlj-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\38q5dbxec5-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\d327rs3zyh-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\w6c6tan3os-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\ddlxc48xft-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\7llepeewx7-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\sk2tag046x-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\s9qh9q4p7f-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\mkxepaki0c-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\vpid9xj6od-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\g2ci3xp9jb-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\rib3kqd4g5-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\q7bz34tfbo-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\9y1hu6o95d-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\f4itj7z9xh-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\iw7kv0i82r-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\xqx22h9qdv-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\uioljiaegn-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\2yhdimfqsm-{0}-356vix0kms-356vix0kms.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\mwcgumd2tg-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\nn3jq46wp1-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\wch6mdhndh-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\8tgmll8u8u-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\div6q53d3r-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\qyqc2p03y4-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\d84wfjdw1h-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\64k9l756kq-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\f003455xsw-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\gebm4c9hhc-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\22tzwxp6rj-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\m0vsnoxz22-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\udblsqtasd-{0}-0c4f3w12yy-0c4f3w12yy.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\x8owl3jxaa-{0}-0c4f3w12yy-0c4f3w12yy.gz
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\refint\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.pdb
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.genruntimeconfig.cache
+C:\Users\felip\source\repos\Proyecto1-FelipeBrenes\Proyecto1-FelipeBrenes\obj\Debug\net10.0\ref\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\appsettings.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.staticwebassets.runtime.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.staticwebassets.endpoints.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.exe
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.deps.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.runtimeconfig.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.pdb
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.AssemblyInfoInputs.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.AssemblyInfo.cs
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.csproj.CoreCompileInputs.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.RazorAssemblyInfo.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.RazorAssemblyInfo.cs
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\scopedcss\bundle\Proyecto1-FelipeBrenes.styles.css
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\scopedcss\projectbundle\Proyecto1-FelipeBrenes.bundle.scp.css
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\yrwk5a6zrz-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\krv3qzwk8j-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\1ulg2e0qwf-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\zh2lhjsky4-{0}-2l3l93nz37-2l3l93nz37.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\b4knsmjzz0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\4rjyruzkk6-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\95yqikok9z-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\g0ncpf3kj3-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\zuz6xwtkh5-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\7gcnehqid1-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\ap6qsznq1x-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\9ez5qj7wrp-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\g498oldh5x-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\i6d24izob7-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\aceznrvf48-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\2b4whed1b5-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\v756lbuk5b-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\qkozs0t4yt-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\0fxirjibhs-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\hkg91bpafo-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\usigifwumo-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\n8lqzn14bh-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\geofvinxo5-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\vwi9cxrxzo-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\rznh2z78rj-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\awbxxj9y6x-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\17lv3utto6-{0}-06098lyss8-06098lyss8.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\8h1rrtx45r-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\dmp9gzyix1-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\a03b42792i-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\wxls165ca4-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\5vrpjdv6l3-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\55z3j1jjlj-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\38q5dbxec5-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\d327rs3zyh-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\w6c6tan3os-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\ddlxc48xft-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\7llepeewx7-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\sk2tag046x-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\s9qh9q4p7f-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\mkxepaki0c-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\vpid9xj6od-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\g2ci3xp9jb-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\rib3kqd4g5-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\q7bz34tfbo-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\9y1hu6o95d-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\f4itj7z9xh-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\iw7kv0i82r-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\xqx22h9qdv-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\uioljiaegn-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\2yhdimfqsm-{0}-356vix0kms-356vix0kms.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\mwcgumd2tg-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\nn3jq46wp1-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\wch6mdhndh-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\8tgmll8u8u-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\div6q53d3r-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\qyqc2p03y4-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\d84wfjdw1h-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\64k9l756kq-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\f003455xsw-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\gebm4c9hhc-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\22tzwxp6rj-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\m0vsnoxz22-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\udblsqtasd-{0}-0c4f3w12yy-0c4f3w12yy.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\x8owl3jxaa-{0}-0c4f3w12yy-0c4f3w12yy.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\refint\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.pdb
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.genruntimeconfig.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto2\Proyecto2-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\ref\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\appsettings.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.staticwebassets.endpoints.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.staticwebassets.runtime.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.exe
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.deps.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.runtimeconfig.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\bin\Debug\net10.0\Proyecto1-FelipeBrenes.pdb
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.AssemblyInfoInputs.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.AssemblyInfo.cs
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.csproj.CoreCompileInputs.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.RazorAssemblyInfo.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.RazorAssemblyInfo.cs
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\scopedcss\bundle\Proyecto1-FelipeBrenes.styles.css
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\scopedcss\projectbundle\Proyecto1-FelipeBrenes.bundle.scp.css
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\yrwk5a6zrz-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\krv3qzwk8j-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\1ulg2e0qwf-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\zh2lhjsky4-{0}-2l3l93nz37-2l3l93nz37.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\b4knsmjzz0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\4rjyruzkk6-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\95yqikok9z-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\g0ncpf3kj3-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\zuz6xwtkh5-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\7gcnehqid1-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\ap6qsznq1x-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\9ez5qj7wrp-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\g498oldh5x-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\i6d24izob7-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\aceznrvf48-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\2b4whed1b5-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\v756lbuk5b-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\qkozs0t4yt-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\0fxirjibhs-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\hkg91bpafo-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\usigifwumo-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\n8lqzn14bh-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\geofvinxo5-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\vwi9cxrxzo-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\rznh2z78rj-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\awbxxj9y6x-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\17lv3utto6-{0}-06098lyss8-06098lyss8.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\8h1rrtx45r-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\dmp9gzyix1-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\a03b42792i-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\wxls165ca4-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\5vrpjdv6l3-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\55z3j1jjlj-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\38q5dbxec5-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\d327rs3zyh-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\w6c6tan3os-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\ddlxc48xft-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\7llepeewx7-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\sk2tag046x-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\s9qh9q4p7f-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\mkxepaki0c-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\vpid9xj6od-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\g2ci3xp9jb-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\rib3kqd4g5-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\q7bz34tfbo-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\9y1hu6o95d-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\f4itj7z9xh-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\iw7kv0i82r-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\xqx22h9qdv-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\uioljiaegn-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\2yhdimfqsm-{0}-356vix0kms-356vix0kms.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\mwcgumd2tg-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\nn3jq46wp1-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\wch6mdhndh-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\8tgmll8u8u-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\div6q53d3r-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\qyqc2p03y4-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\d84wfjdw1h-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\64k9l756kq-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\f003455xsw-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\gebm4c9hhc-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\22tzwxp6rj-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\m0vsnoxz22-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\udblsqtasd-{0}-0c4f3w12yy-0c4f3w12yy.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\compressed\x8owl3jxaa-{0}-0c4f3w12yy-0c4f3w12yy.gz
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\refint\Proyecto1-FelipeBrenes.dll
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.pdb
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\Proyecto1-FelipeBrenes.genruntimeconfig.cache
+C:\Users\felip\Desktop\Fundamentos de Programacion Web\FelipeBrenes-Proyecto3\Proyecto3-4-0254-0904\Proyecto1-FelipeBrenes\obj\Debug\net10.0\ref\Proyecto1-FelipeBrenes.dll

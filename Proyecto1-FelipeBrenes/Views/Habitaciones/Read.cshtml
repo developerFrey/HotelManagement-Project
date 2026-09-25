@@ -1,0 +1,98 @@
+﻿@model List<Habitacion>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+<form asp-action="Buscar" method="post">
+
+    <input type="text"
+           name="numero"
+           class="form-control"
+           placeholder="Buscar por número de habitación" />
+
+    <button class="btn btn-primary mt-2">
+        Buscar
+    </button>
+
+</form>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (ViewBag.Resultados != null)
+{
+    var resultados = ViewBag.Resultados as List<Habitacion>;
+
+    if (resultados is { Count: > 0 })
+    {
+        <h4>Resultado de búsqueda</h4>
+
+        <table class="table table-bordered">
+
+            <tr>
+                <th>Número de Habitacion</th>
+                <th>Tipo</th>
+                <th>Tarifa $</th>
+                <th>TV Satelital (Si/No)</th>
+                <th>Pendientes de Mantenimiento</th>
+            </tr>
+
+            @foreach (var habitacion in resultados)
+            {
+                <tr>
+                    <td>@habitacion.Numero</td>
+                    <td>@habitacion.Tipo</td>
+                    <td>@habitacion.Tarifa</td>
+                    <td>@habitacion.TV</td>
+                    <td>@habitacion.Mantenimiento</td>
+                </tr>
+            }
+
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-warning">
+            No se encontraron habitaciones con ese número.
+        </div>
+    }
+}
+
+<button class="btn btn-secondary mt-3"
+        data-bs-toggle="collapse"
+        data-bs-target="#listaHabitaciones">
+
+    Ver todas las habitaciones
+
+</button>
+
+<div class="collapse mt-3" id="listaHabitaciones">
+
+    <table class="table table-striped">
+
+        <tr>
+            <th>Número de Habitación</th>
+            <th>Tipo</th>
+            <th>Tarifa $</th>
+            <th>TV Satelital (Si/No)</th>
+            <th>Pendientes de Mantenimiento</th>
+        </tr>
+
+        @foreach (var habitacion in Model)
+        {
+            <tr>
+                <td>@habitacion.Numero</td>
+                <td>@habitacion.Tipo</td>
+                <td>@habitacion.Tarifa</td>
+                <td>@habitacion.TV</td>
+                <td>@habitacion.Mantenimiento</td>
+            </tr>
+        }
+
+    </table>
+
+</div>

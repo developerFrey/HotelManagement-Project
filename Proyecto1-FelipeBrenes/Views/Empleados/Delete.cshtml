@@ -1,0 +1,65 @@
+﻿@model List<Empleado>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+    </div>
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <p>@ViewBag.Mensaje</p>
+}
+else
+{
+    
+    <table class="table table-striped">
+        <tr>
+            <th>Tipo de Identificación</th>
+            <th>Identificación</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Salario</th>
+            <th>Fecha de Ingreso</th>
+            <th>Categoría</th>
+            <th>Ubicación</th>
+            <th>Dirección</th>
+			<th>Acción</th>
+        </tr>
+
+        @foreach (var empleado in Model)
+        {
+            <tr>
+                <td>@empleado.TipoIdentificacion</td>
+                <td>@empleado.Identificacion</td>
+                <td>@empleado.Nombre</td>
+                <td>@empleado.Apellidos</td>
+                    <td>@empleado.FechaNacimiento?.ToString("yyyy-MM-dd")</td>
+                <td>@empleado.Salario</td>
+                    <td>@empleado.FechaIngreso?.ToString("yyyy-MM-dd")</td>
+                <td>@empleado.Categoria</td>
+                <td>@empleado.Ubicacion</td>
+                <td>@empleado.Direccion</td>
+
+                <td>
+                    <form asp-action="Delete" method="post">
+                        
+                        <input type="hidden" name="id" value="@empleado.Identificacion" />
+                        <button class="btn btn-danger btn-sm" type="submit">
+                            Eliminar
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+}

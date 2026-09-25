@@ -1,0 +1,47 @@
+﻿@model Proyecto1_FelipeBrenes.Models.Cliente
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+<h2>Nuevo Cliente</h2>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+    </div>
+}
+
+<form method="post" class="form-control p-3">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <select asp-for="TipoIdentificacion" class="form-control mb-2">
+        <option value="">Seleccione tipo de identificación</option>
+        <option value="Cedula">Cédula</option>
+        <option value="Dimex">DIMEX</option>
+        <option value="Pasaporte">Pasaporte</option>
+    </select>
+
+    <span asp-validation-for="TipoIdentificacion" class="text-danger"></span>
+    <input asp-for="Identificacion" class="form-control mb-2" placeholder="Numero de Identificacion" />
+    <span asp-validation-for="Identificacion" class="text-danger"></span>
+
+    <input asp-for="Nombre" class="form-control mb-2" placeholder="Nombre" />
+    <span asp-validation-for="Nombre" class="text-danger"></span>
+
+    <input asp-for="PrimerApellido" class="form-control mb-2" placeholder="Primer Apellido" />
+    <span asp-validation-for="PrimerApellido" class="text-danger"></span>
+
+    <input asp-for="SegundoApellido" class="form-control mb-2" placeholder="Segundo Apellido" />
+    <span asp-validation-for="SegundoApellido" class="text-danger"></span>
+
+    <h6>Fecha de Nacimiento</h6>
+    <input asp-for="FechaNacimiento" type="date" min="1800-01-01" max="@DateTime.Today.AddDays(-1).ToString("yyyy-MM-dd")" class="form-control mb-2" placeholder="dd/mm/yyyy" />
+    <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+
+    <button class="btn btn-success">Guardar</button>
+</form>

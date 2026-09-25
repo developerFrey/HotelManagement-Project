@@ -1,0 +1,201 @@
+﻿@model Proyecto1_FelipeBrenes.Models.Reservacion
+
+<h2>Nueva Reservación</h2>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">
+    ⬅ Volver
+</a>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show">
+
+        @TempData["Mensaje"]
+
+        <button class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+
+    </div>
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Create" method="post">
+
+
+    <!-- Cliente -->
+
+    <div class="mb-3">
+
+        <h4>ID del Cliente</h4>
+
+        <select asp-for="ClienteId"
+                class="form-control">
+
+            <option value="">
+                Seleccione un cliente
+            </option>
+
+            @foreach (var cliente in (List<Cliente>)ViewBag.Clientes)
+            {
+                <option value="@cliente.Identificacion">
+                    @cliente.Nombre - @cliente.Identificacion
+                </option>
+            }
+
+        </select>
+
+        <span asp-validation-for="ClienteId"
+              class="text-danger"></span>
+
+    </div>
+
+    <!-- Habitación -->
+
+    <div class="mb-3">
+
+        <h4>Numero de Habitación</h4>
+
+        <select asp-for="HabitacionNumero"
+                class="form-control">
+
+            <option value="">
+                Seleccione una habitación
+            </option>
+
+            @foreach (var habitacion in (List<Habitacion>)ViewBag.Habitaciones)
+            {
+                <option value="@habitacion.Numero">
+
+                    Habitación @habitacion.Numero
+                    -
+                    @habitacion.Tipo
+
+                </option>
+            }
+
+        </select>
+
+        <span asp-validation-for="HabitacionNumero"
+              class="text-danger"></span>
+
+    </div>
+
+    <!-- Fecha ingreso -->
+
+    <div class="mb-3">
+
+        <h4>Fecha de Ingreso</h4>
+
+        <input asp-for="FechaIngreso"
+               type="date"
+               class="form-control" />
+
+        <span asp-validation-for="FechaIngreso"
+              class="text-danger"></span>
+
+    </div>
+
+    <!-- Fecha salida -->
+
+    <div class="mb-3">
+
+        <h4>Fecha de Salida</h4>
+
+        <input asp-for="FechaSalida"
+               type="date"
+               class="form-control" />
+
+        <span asp-validation-for="FechaSalida"
+              class="text-danger"></span>
+
+    </div>
+
+    <!-- Personas -->
+
+    <div class="mb-3">
+
+        <h4>Cantidad de Personas</h4>
+
+        <input asp-for="CantidadPersonas"
+               type="number"
+               min="1"
+               max="10"
+               step="1"
+               class="form-control" placeholder="Indique la cantidad"/>
+
+        <span asp-validation-for="CantidadPersonas"
+              class="text-danger"></span>
+
+    </div>
+
+    <div class="mb-3">
+
+        <h4>Solicitudes Especiales</h4>
+
+        <textarea asp-for="SolicitudesEspeciales"
+                  class="form-control"
+                  rows="3"
+                  placeholder="Opcional"></textarea>
+
+        <span asp-validation-for="SolicitudesEspeciales"
+              class="text-danger"></span>
+
+    </div>
+
+    <div class="mb-3">
+
+        <h4>Porcentaje de Descuento (%)</h4>
+
+        <input asp-for="PorcentajeDescuento"
+               type="number"
+               min="0"
+               max="100"
+               step="0.01"
+               class="form-control"
+               placeholder="0" />
+
+        <span asp-validation-for="PorcentajeDescuento"
+              class="text-danger"></span>
+
+    </div>
+
+    <!-- Estado -->
+
+    <div class="mb-3">
+
+        <label asp-for="Estado"></label>
+
+        <select asp-for="Estado"
+                class="form-control">
+
+            <option value="">
+                Seleccione un estado
+            </option>
+
+            <option>Reservada</option>
+            <option>En Proceso</option>
+            <option>Cancelada</option>
+            <option>Finalizada</option>
+
+        </select>
+
+        <span asp-validation-for="Estado"
+              class="text-danger"></span>
+
+    </div>
+
+    <button class="btn btn-success">
+
+        Guardar
+
+    </button>
+
+</form>
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "Proyecto1-FelipeBrenes\\Proyecto1-FelipeBrenes.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "proyecto2ApiRESTful\\proyecto2ApiRESTful.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

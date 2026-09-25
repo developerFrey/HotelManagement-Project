@@ -1,0 +1,27 @@
+@model List<Proyecto1_FelipeBrenes.Models.Reservacion>
+@{
+    ViewData["Title"] = "Reporte semanal";
+}
+
+<a asp-action="Index" class="btn btn-secondary mb-3">Volver a reservaciones</a>
+<h2>Reservaciones de la semana entrante</h2>
+<p class="text-muted">La semana entrante se define como el lunes a domingo de la semana calendario posterior a la actual. Los resultados se ordenan por monto total, de mayor a menor.</p>
+
+@if (Model.Count == 0)
+{
+    <div class="alert alert-info">No hay reservaciones para la semana entrante.</div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead><tr><th>Código</th><th>Cliente</th><th>Habitación</th><th>Ingreso</th><th>Salida</th><th>Personas</th><th>Descuento</th><th>Total</th><th>Estado</th></tr></thead>
+            <tbody>
+            @foreach (var reservacion in Model)
+            {
+                <tr><td>@reservacion.CodigoReservacion</td><td>@reservacion.ClienteId</td><td>@reservacion.HabitacionNumero</td><td>@reservacion.FechaIngreso?.ToString("dd/MM/yyyy")</td><td>@reservacion.FechaSalida?.ToString("dd/MM/yyyy")</td><td>@reservacion.CantidadPersonas</td><td>@reservacion.PorcentajeDescuento%</td><td>@reservacion.MontoTotal.ToString("N2")</td><td>@reservacion.Estado</td></tr>
+            }
+            </tbody>
+        </table>
+    </div>
+}

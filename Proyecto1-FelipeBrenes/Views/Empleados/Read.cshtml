@@ -1,0 +1,116 @@
+﻿@model List<Empleado>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<form asp-action="Buscar" method="post">
+    <div asp-validation-summary="All"
+         class="text-danger">
+    </div>
+    <input type="text"
+           name="identificacion"
+           class="form-control"
+           placeholder="Buscar por identificación" />
+
+    <button class="btn btn-primary mt-2">
+        Buscar
+    </button>
+
+</form>
+
+@if (ViewBag.Resultados != null)
+{
+    var resultados = ViewBag.Resultados as List<Empleado>;
+
+    if (resultados is { Count: > 0 })
+    {
+        <h4>Resultado de búsqueda</h4>
+
+        <table class="table table-bordered">
+
+            <tr>
+                <th>Identificacion</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Salario</th>
+                <th>Fecha de Ingreso</th>
+                <th>Categoría</th>
+                <th>Ubicación</th>
+                <th>Dirección</th>
+            </tr>
+
+            @foreach (var empleado in resultados)
+            {
+                <tr>
+                    <td>@empleado.Identificacion</td>
+                    <td>@empleado.Nombre</td>
+                    <td>@empleado.Apellidos</td>
+                    <td>@empleado.FechaNacimiento?.ToString("yyyy-MM-dd")</td>
+                    <td>@empleado.Salario</td>
+                    <td>@empleado.FechaIngreso?.ToString("yyyy-MM-dd")</td>
+                    <td>@empleado.Categoria</td>
+                    <td>@empleado.Ubicacion</td>
+                    <td>@empleado.Direccion</td>
+                </tr>
+            }
+
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-warning">
+            No se encontraron Empleados con esa identificación.
+        </div>
+    }
+}
+
+<button class="btn btn-secondary mt-3"
+        data-bs-toggle="collapse"
+        data-bs-target="#listaClientes">
+
+    Ver todos los Empleados
+
+</button>
+
+<div class="collapse mt-3" id="listaClientes">
+
+    <table class="table table-striped">
+
+        <tr>
+            <th>Identificacion</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Salario</th>
+            <th>Fecha de Ingreso</th>
+            <th>Categoría</th>
+            <th>Ubicación</th>
+            <th>Dirección</th>
+        </tr>
+
+        @foreach (var empleado in Model)
+        {
+            <tr>
+                <td>@empleado.Identificacion</td>
+                <td>@empleado.Nombre</td>
+                <td>@empleado.Apellidos</td>
+                <td>@empleado.FechaNacimiento?.ToString("yyyy-MM-dd")</td>
+                <td>@empleado.Salario</td>
+                <td>@empleado.FechaIngreso?.ToString("yyyy-MM-dd")</td>
+                <td>@empleado.Categoria</td>
+                <td>@empleado.Ubicacion</td>
+                <td>@empleado.Direccion</td>
+            </tr>
+        }
+
+    </table>
+
+</div>

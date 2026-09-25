@@ -1,0 +1,55 @@
+﻿@model List<Reservacion>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+    </div>
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <p>@ViewBag.Mensaje</p>
+}
+else
+{
+
+    <table class="table table-striped">
+        <tr>
+            <th>Codigo</th>
+            <th>Cliente ID</th>
+            <th>Numero de Habitacion</th>
+            <th>Fecha de Ingreso</th>
+            <th>Fecha de Salida</th>
+            <th>Cantidad de Personas</th>
+            <th>Estado</th>
+			<th>Acción</th>
+        </tr>
+
+        @foreach (var reservacion in Model)
+        {
+            <tr>
+                <td>@reservacion.CodigoReservacion</td>
+                <td>@reservacion.ClienteId</td>
+                <td>@reservacion.HabitacionNumero</td>
+                <td>@reservacion.FechaIngreso?.ToString("yyyy-MM-dd")</td>
+                <td>@reservacion.FechaSalida?.ToString("yyyy-MM-dd")</td>
+                <td>@reservacion.CantidadPersonas</td>
+                <td>@reservacion.Estado</td>
+
+                <td>
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" name="CodigoReservacion" value="@reservacion.CodigoReservacion" />
+                        <button class="btn btn-danger btn-sm" type="submit">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+}

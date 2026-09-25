@@ -1,0 +1,340 @@
+﻿@model List<Proyecto1_FelipeBrenes.Models.Reservacion>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">
+    ⬅ Volver
+</a>
+
+<!-- Muestra claramente cualquier error de fechas, personas, estado o disponibilidad. -->
+<div asp-validation-summary="All" class="text-danger"></div>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show">
+
+        @TempData["Mensaje"]
+
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+
+    </div>
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-warning">
+
+        @ViewBag.Mensaje
+
+    </div>
+}
+else
+{
+
+    @foreach (var reservacion in Model)
+    {
+
+        <form asp-action="Edit" method="post">
+
+            <div class="card shadow-sm mb-4">
+
+                <div class="card-header bg-primary text-white">
+
+                    <h5 class="mb-0">
+
+                        Reservación
+                        @reservacion.CodigoReservacion
+
+                    </h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <input type="hidden"
+                           name="CodigoReservacion"
+                           value="@reservacion.CodigoReservacion" />
+
+                    <div class="row">
+
+                        <div class="col-md-6 mb-3">
+
+                            <label class="form-label">
+
+                                Cliente
+
+                            </label>
+
+                            <select name="ClienteId"
+                                    class="form-control">
+
+                                @foreach (var cliente in (List<Cliente>)ViewBag.Clientes)
+                                {
+                                    if (cliente.Identificacion == reservacion.ClienteId)
+                                    {
+                                        <option selected
+                                                value="@cliente.Identificacion">
+
+                                            @cliente.Nombre
+                                            (@cliente.Identificacion)
+
+                                        </option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@cliente.Identificacion">
+
+                                            @cliente.Nombre
+                                            (@cliente.Identificacion)
+
+                                        </option>
+                                    }
+                                }
+
+                            </select>
+
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+
+                            <label class="form-label">
+
+                                Habitación
+
+                            </label>
+
+                            <select name="HabitacionNumero"
+                                    class="form-control">
+
+                                @foreach (var habitacion in (List<Habitacion>)ViewBag.Habitaciones)
+                                {
+                                    if (habitacion.Numero == reservacion.HabitacionNumero)
+                                    {
+                                        <option selected
+                                                value="@habitacion.Numero">
+
+                                            @habitacion.Numero -
+                                            @habitacion.Tipo
+
+                                        </option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@habitacion.Numero">
+
+                                            @habitacion.Numero -
+                                            @habitacion.Tipo
+
+                                        </option>
+                                    }
+                                }
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4 mb-3">
+
+                            <label class="form-label">
+
+                                Fecha Reservación
+
+                            </label>
+
+                            <input class="form-control"
+                                   readonly
+                                   value="@reservacion.FechaReservacion.ToString("yyyy-MM-dd")" />
+
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+
+                            <label class="form-label">
+
+                                Fecha Ingreso
+
+                            </label>
+
+                            <input type="date"
+                                   name="FechaIngreso"
+                                   class="form-control"
+                                   value="@reservacion.FechaIngreso?.ToString("yyyy-MM-dd")" />
+
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+
+                            <label class="form-label">
+
+                                Fecha Salida
+
+                            </label>
+
+                            <input type="date"
+                                   name="FechaSalida"
+                                   class="form-control"
+                                   value="@reservacion.FechaSalida?.ToString("yyyy-MM-dd")" />
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4 mb-3">
+
+                            <label class="form-label">
+
+                                Cantidad de Personas
+
+                            </label>
+
+                            <input name="CantidadPersonas"
+                                   class="form-control"
+                                   value="@reservacion.CantidadPersonas" />
+
+                        </div>
+                        <div class="col-md-4 mb-3">
+
+                            <label class="form-label">
+
+                                Porcentaje de Descuento (%)
+
+                            </label>
+
+                            <input type="number"
+                                   name="PorcentajeDescuento"
+                                   min="0"
+                                   max="100"
+                                   step="0.01"
+                                   class="form-control"
+                                   value="@reservacion.PorcentajeDescuento" />
+
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+
+                            <label class="form-label">
+
+                                Estado
+
+                            </label>
+
+                            <select name="Estado"
+                                    class="form-control">
+
+                                @if (reservacion.Estado == "Reservada")
+                                {
+                                    <option selected>Reservada</option>
+                                }
+                                else
+                                {
+                                    <option>Reservada</option>
+                                }
+
+                                @if (reservacion.Estado == "Cancelada")
+                                {
+                                    <option selected>Cancelada</option>
+                                }
+                                else
+                                {
+                                    <option>Cancelada</option>
+                                }
+
+                                @if (reservacion.Estado == "En Proceso")
+                                {
+                                    <option selected>En Proceso</option>
+                                }
+                                else
+                                {
+                                    <option>En Proceso</option>
+                                }
+
+                                @if (reservacion.Estado == "Finalizada")
+                                {
+                                    <option selected>Finalizada</option>
+                                }
+                                else
+                                {
+                                    <option>Finalizada</option>
+                                }
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label class="form-label">
+
+                            Solicitudes Especiales
+
+                        </label>
+
+                        <textarea name="SolicitudesEspeciales"
+                                  rows="3"
+                                  class="form-control">@reservacion.SolicitudesEspeciales</textarea>
+
+                    </div>
+
+                    <hr />
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+
+                            <label class="form-label">
+
+                                Tarifa de la Reservación
+
+                            </label>
+
+                            <input class="form-control"
+                                   readonly
+                                   value="@reservacion.TarifaReservacion.ToString("N2")" />
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <label class="form-label">
+
+                                Monto Total (IVA incluido)
+
+                            </label>
+
+                            <input class="form-control"
+                                   readonly
+                                   value="@reservacion.MontoTotal.ToString("N2")" />
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card-footer text-end">
+
+                    <button type="submit"
+                            class="btn btn-warning">
+
+                        Actualizar Reservación
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    }
+
+}

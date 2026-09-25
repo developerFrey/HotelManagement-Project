@@ -1,0 +1,52 @@
+﻿@model List<Cliente>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+    </div>
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <p>@ViewBag.Mensaje</p>
+}
+else
+{
+    
+    <table class="table table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Primer Apellido</th>
+            <th>Segundo Apellido</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Acción</th>
+            
+        </tr>
+
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>@cliente.Identificacion</td>
+                <td>@cliente.Nombre</td>
+                <td>@cliente.PrimerApellido</td>
+                <td>@cliente.SegundoApellido</td>
+                    <td>@cliente.FechaNacimiento?.ToString("yyyy-MM-dd")</td>
+
+                <td>
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" name="id" value="@cliente.Identificacion" />
+                        <button class="btn btn-danger btn-sm" type="submit">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+}

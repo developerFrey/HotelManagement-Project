@@ -1,0 +1,112 @@
+﻿@model Proyecto1_FelipeBrenes.Models.Empleado
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+<h2>Nuevo Empleado</h2>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+    </div>
+}
+
+<form method="post" class="form-control p-3">
+
+    <select asp-for="TipoIdentificacion" class="form-control mb-2">
+        <option value="">Seleccione tipo de Identificacion</option>
+        <option value="Cedula">Cédula</option>
+        <option value="Dimex">DIMEX</option>
+    </select>
+    <span asp-validation-for="TipoIdentificacion" class="text-danger"></span>
+
+    <input asp-for="Identificacion" class="form-control mb-2" placeholder="Numero de Identificacion" />
+    <span asp-validation-for="Identificacion" class="text-danger"></span>
+
+    <input asp-for="Nombre" class="form-control mb-2" placeholder="Nombre" />
+    <span asp-validation-for="Nombre" class="text-danger"></span>
+
+    <input asp-for="Apellidos" class="form-control mb-2" placeholder="Apellidos" />
+    <span asp-validation-for="Apellidos" class="text-danger"></span>
+
+    <h6>Fecha de Nacimiento</h6>
+    <input asp-for="FechaNacimiento" type="date" min="1800-01-01" max="@DateTime.Today.AddDays(-1).ToString("yyyy-MM-dd")" class="form-control mb-2" placeholder="Fecha de Nacimiento"/>
+    <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+
+    <input asp-for="Salario" class="form-control mb-2" placeholder="Salario" />
+    <span asp-validation-for="Salario" class="text-danger"></span>
+
+    <h6>Fecha de Ingreso</h6>
+    <input asp-for="FechaIngreso" type="date" class="form-control mb-2" placeholder="Fecha de Ingreso" />
+    <span asp-validation-for="FechaIngreso" class="text-danger"></span>
+
+    <select asp-for="Categoria" class="form-control mb-2">
+        <option value="">Seleccione</option>
+        <option>Mesero</option>
+        <option>Salonero</option>
+        <option>Lavaplatos</option>
+        <option>Recepcionista</option>
+        <option>Administrador</option>
+        <option>Mantenimiento</option>
+        <option>Cocinero</option>
+        <option>Chef</option>
+        <option>Limpieza</option>
+        <option>Cocina</option>
+        <option>Seguridad</option>
+        <option>Atención al Cliente</option>
+        <option>Guía Turístico</option>
+        <option>Encargado de Reservaciones</option>
+    </select>
+    <span asp-validation-for="Categoria" class="text-danger"></span>
+
+    <!-- SELECTS DE UBICACIÓN -->
+    <div class="ubicacion-container">
+
+        <select class="form-control mb-2 provincia">
+            <option value="">Provincia</option>
+        </select>
+
+        <select class="form-control mb-2 canton">
+            <option value="">Cantón</option>
+        </select>
+
+        <select class="form-control mb-2 distrito">
+            <option value="">Distrito</option>
+        </select>
+
+        <input asp-for="Ubicacion" type="hidden" class="ubicacionFinal" />
+        
+
+    </div>
+    <!-- campo oculto que se guarda -->
+    <input asp-for="Ubicacion" type="hidden" id="ubicacionFinal" />
+    <span asp-validation-for="Ubicacion" class="text-danger"></span>
+
+    <input asp-for="Direccion" class="form-control mb-2" placeholder="Dirección" />
+    <span asp-validation-for="Direccion" class="text-danger"></span>
+
+    <button class="btn btn-success">Guardar</button>
+</form>
+
+<!-- Se llaman los datos del JSON -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+    inicializarUbicacion("provincia", "canton", "distrito");
+
+    actualizarUbicacionHidden(
+    "ubicacionFinal",
+    "provincia",
+    "canton",
+    "distrito"
+    );
+
+    });
+</script>

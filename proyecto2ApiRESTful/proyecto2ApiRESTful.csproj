@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<!-- Proyecto 2 -->
+	<!-- Curso: Fundamentos de Programacion Web -->
+	<!-- Programador: Felipe Brenes Conejo -->
+	<!--Periodo: Segundo Cuatrimestre 2026 -->
+	<!-- Para el desarrollo del presente proyecto, se realizaron diferentes investigaciones,
+		 * en diferentes sitios web, videos explicativos de la plataforma YouTube,
+		 * material dado por la UNED, asi como colaborar u apoyarse en la inteligencia artificial,
+		 * para recomendaciones y explicaciones.
+		 * Prompt utilizado especificamente: 
+		 * "Explicame paso por paso cual es la mejor manera y la mas eficiente de crear,
+		 * u estructurar un proyecto con servicios RESTful, con consumo de 
+		 * servicios desde un MVC y manejo de datos en memoria utilizando C#, sin librerias externas y con buenas practicas de programacion.-->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Proyecto3.AccesoDatos\Proyecto3.AccesoDatos.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Los modelos persistentes ahora viven en Proyecto3.AccesoDatos. -->
+    <Compile Remove="Models\**\*.cs" />
+  </ItemGroup>
+
+</Project>

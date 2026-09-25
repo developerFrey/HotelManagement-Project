@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<!-- Proyecto 3 -->
+	<!-- Curso: Fundamentos de Programacion Web -->
+	<!-- Programador: Felipe Brenes Conejo -->
+	<!--Periodo: Segundo Cuatrimestre 2026 -->
+	<!-- Para el desarrollo del presente proyecto, se realizaron diferentes investigaciones,
+		 * en diferentes sitios web, videos explicativos de la plataforma YouTube,
+		 * material dado por la UNED, asi como colaborar u apoyarse en la inteligencia artificial,
+		 * para recomendaciones y explicaciones.
+		 * Prompt utilizado especificamente: 
+		 * "Explicame paso por paso cual es la mejor manera y la mas eficiente de crear,
+		 * u estructurar un proyecto con servicios RESTful, con consumo de 
+		 * servicios desde un MVC y utlizando base de datos, sin librerias externas, por capas y con buenas practicas de programacion.-->
+	<PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Proyecto1_FelipeBrenes</RootNamespace>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Proyecto1-FelipeBrenes/Proyecto1-FelipeBrenes.csproj" />
+  <Project Path="proyecto2ApiRESTful/proyecto2ApiRESTful.csproj" Id="bcc33efa-e3b4-4944-826b-9747d565d2f2" />
+  <Project Path="Proyecto3.AccesoDatos/Proyecto3.AccesoDatos.csproj" />
+</Solution>

@@ -1,0 +1,74 @@
+﻿@model List<Habitacion>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+@if (ViewBag.Mensaje != null)
+{
+    <p>@ViewBag.Mensaje</p>
+}
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<table class="table table-striped">
+    <tr>
+        <th>Número de Habitacion</th>
+        <th>Tipo</th>
+        <th>Tarifa</th>
+        <th>TV Satelital (Si/No)</th>
+        <th>Pendientes de Mantenimiento</th>
+        <th>Acción</th>
+    </tr>
+
+    @foreach (var habitacion in Model)
+    {
+        <tr>
+            <form asp-action="Edit" method="post">
+
+                <!--  -->
+                <td>
+                    <input name="Numero" value="@habitacion.Numero" readonly />
+                </td>
+
+                <td>
+                    <select name="Tipo" class="form-control">
+                        <option value="">Seleccione</option>
+                        <option value="Start Junior" selected="@(habitacion.Tipo == "Start Junior")">Start Junior</option>
+                        <option value="Start Vista al Mar" selected="@(habitacion.Tipo == "Start Vista al Mar")">Start Vista al Mar</option>
+                        <option value="Master Start" selected="@(habitacion.Tipo == "Master Start")">Master Start</option>
+                    </select>
+                </td>
+
+                <td>
+                    <input name="Tarifa" value="@habitacion.Tarifa" />
+                </td>
+
+                <td>
+                    <select name="TV">
+                        <option value="true" selected="@(habitacion.TV == true)">Sí</option>
+                        <option value="false" selected="@(habitacion.TV == false)">No</option>
+                    </select>
+                </td>
+
+                <td>
+                    <input name="Mantenimiento" value="@habitacion.Mantenimiento" />
+                </td>
+
+                <td>
+                    <button class="btn btn-warning btn-sm" type="submit">
+                        Actualizar
+                    </button>
+
+                </td>
+
+            </form>
+        </tr>
+    }
+</table>

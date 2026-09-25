@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Proyecto1_FelipeBrenes</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Proyecto1_FelipeBrenes.styles.css" asp-append-version="true" />
+    <style>
+        /* Cambia el fondo y texto de toda la página */
+        body {
+        background-color: #D3D3D3; /* Color de fondo gris claro */
+        color: #D3D3D3; /* Color del texto principal */
+        margin: 0;
+        font-family: Arial, sans-serif;
+        }
+
+        /* Cambia el fondo y texto del encabezado visible */
+        header {
+        background-color: #D3D3D3; /* Color de fondo azul */
+        color: lightslategray; /* Color del texto del encabezado */
+        padding: 20px;
+        text-align: center;
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light border-bottom box-shadow mb-3">
+
+            <div class="container-fluid">
+                <a class="navbar-brand btn btn-secondary text-white px-3 py-2" asp-area="" asp-controller="Home" asp-action="Index">Menu Principal</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container mt-4">
+                    <nav class="mb-4">
+                        <a class="btn btn-outline-primary" href="/Clientes">Clientes</a>
+                        <a class="btn btn-outline-success" href="/Habitaciones">Habitaciones</a>
+                        <a class="btn btn-outline-warning" href="/Reservaciones">Reservaciones</a>
+                        <a class="btn btn-outline-info" asp-controller="Reservaciones" asp-action="ReporteSemanal">Reporte semanal</a>
+                        <a class="btn btn-outline-dark" href="/Empleados">Empleados</a>
+                    </nav>
+
+                    @RenderBody()
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2026 - Desarrollado por Felipe Brenes - <a asp-area="" asp-controller="Home" asp-action="Privacy">Politicas de Privacidad</a>
+        </div>
+    </footer>
+    <script src="~/js/ubicacion.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

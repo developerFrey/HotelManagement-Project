@@ -1,0 +1,59 @@
+﻿@model List<Habitacion>
+
+<a asp-action="Index" class="btn btn-secondary mb-3">⬅ Volver</a>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert">
+        </button>
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <p>@ViewBag.Mensaje</p>
+}
+else
+{
+
+    <table class="table table-striped">
+        <tr>
+            <th>Numero</th>
+            <th>Tipo</th>
+            <th>Tarifa</th>
+            <th>TV</th>
+            <th>Mantenimiento</th>
+            <th>Acción</th>
+
+        </tr>
+
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Numero</td>
+                <td>@c.Tipo</td>
+                <td>@c.Tarifa</td>
+                <td>@c.TV</td>
+                <td>@c.Mantenimiento</td>
+
+                <td>
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" name="Numero" value="@c.Numero" />
+                        <button class="btn btn-danger btn-sm" type="submit">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+}
